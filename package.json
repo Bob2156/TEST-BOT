@@ -1,8 +1,14 @@
 {
-	"name": "my-bot",
-	"version": "1.0.0",
-	"dependencies": {
-		"discord-interactions": "^2.0.2",
-		"raw-body": "^2.4.1"
-	}
+  "name": "discord-fastify-bot",
+  "version": "1.0.0",
+  "description": "Discord bot using Fastify, deployed on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "fastify start index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.19.1",
+    "tweetnacl": "^1.0.3",
+    "node-fetch": "^2.6.9"
+  }
 }
